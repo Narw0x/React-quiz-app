@@ -17,7 +17,6 @@ export default function Answers({ answer, answerState, onSelect, selectedAnswer}
                 }else if((answerState === 'correct' || answerState === 'wrong')  && isSelected){
                     CssClasses = answerState;
                 }
-                console.log(answerState);
             
             return(
                 <li key={answer} className="answer">
